@@ -1,0 +1,1 @@
+Here is some dummy test to simulate raw writing of what my project/work experience would be like. Only one item can be named at a time, and the code must be rerun for separate bullet items. The merge csv takes all the csv files in this folder, and merges them into one csv. If you have existing items in cv_data, put that csv here too so that it can combine everything together.
