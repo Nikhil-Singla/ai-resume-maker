@@ -7,6 +7,7 @@ import random
 import csv
 import os
 
+## Gets the directory where the script is run from.
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 def createCSV(fileName: str, filePath: str = None) -> None:
@@ -14,34 +15,52 @@ def createCSV(fileName: str, filePath: str = None) -> None:
     Reads from given file, and outputs to one CSV file.
     """
 
+    # Default File
     if fileName == "":
         fileName = "raw_text.txt"
 
+    # Other File Path (Not Implemented)
     if filePath:
         fileName = filePath
 
-    fileName = os.path.join(current_dir, fileName)
+    # Joining current directory to the input file name.
+    else:
+        fileName = os.path.join(current_dir, fileName)
+    
     item = None
-    # Reads a small quantity of text and stores it.
+    
+    
+    # Reads a small quantity of text from input (raw_text.txt) and stores it in a variable.
     try:
         with open(fileName, 'r') as inputfile:
-            item = inputfile.read()
+            given_text = inputfile.read()
 
+
+        item = [{'index': '1', 'text':given_text}]
 
     except:
         print("No such file exists. Make sure it is in the same folder as the handler script.")
 
-    seed = random.randint(1, 10**5)
+    # Generate a seed for the name of file. TECHNICALLY, can collide
+    seed = random.randint(1, 10**9)
     seed = str(seed)+".csv"
+
+    # Seed file is generated in the same location as the script
     seed = os.path.join(current_dir, seed)
 
+    # If item exists, hence the read was successful, we write it to a csv.
     if item:
+        # print(item)
         with open(seed, 'w', newline='') as creation:
-            writer = csv.writer(creation, delimiter=' ')
-            writer.writerow(item)
+            fieldnames = ['index', 'text']
+            writer = csv.DictWriter(creation, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(item)
         
-        # TODO: NEEDS TO BE FIXED. Currently it seems each word has its own column. Need to put them in one cell for easy parsing later down the line.
-        pass
+    return None
+
+def mergeCSV():
+    pass
 
 
 if __name__ == "__main__":
