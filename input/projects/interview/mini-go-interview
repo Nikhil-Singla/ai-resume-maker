@@ -1,0 +1,51 @@
+# Interview Guide — MiniGo AI
+
+## 30-Second Explanation
+
+I built a competitive AI for a 5×5 version of Go using Minimax search with Alpha-Beta pruning. I implemented the entire game engine, including captures, liberties, Ko, suicide prevention, and legal move generation. To make the AI competitive under strict runtime constraints, I designed and tuned several heuristic evaluation functions based on Go strategy, including eye detection, shape analysis, positional weighting, and liberty evaluation. After completing the AI, I expanded the project into a browser-based application so users could play against the engine through an interactive interface.
+
+---
+
+## 2-Minute Explanation
+
+The goal of this project was to explore adversarial search and optimization techniques by building a competitive Go-playing AI from scratch.
+
+The first challenge was implementing the Go rule engine itself. I created board representations, legal move generation, liberty detection, capture mechanics, Ko rule enforcement, suicide prevention, and scoring.
+
+Once the engine was complete, I implemented a Minimax search algorithm with Alpha-Beta pruning. Since Go has an extremely large branching factor, searching the full game tree is impossible, so I developed a heuristic evaluation function that estimates board strength. The evaluation combines positional weighting, liberty analysis, eye detection, shape analysis, center control, and game-phase-specific heuristics. I experimentally tuned these weights by testing against competing agents and removing heuristics that did not improve performance.
+
+To satisfy the assignment's runtime constraints, I implemented move ordering, adaptive search depth near the endgame, and profiled the code to identify performance bottlenecks. The final system consistently generated moves in under one second while outperforming most competing class agents.
+
+After finishing the original assignment, I expanded the project into a browser-based interface using HTML, CSS, and JavaScript to make the AI easier to interact with and to prepare for backend integration.
+
+---
+
+## Common Interview Questions
+
+### Why Minimax?
+
+Go is a deterministic, turn-based, zero-sum game, making Minimax a natural choice because it models optimal play by assuming both players always make their best possible moves.
+
+### Why Alpha-Beta Pruning?
+
+Plain Minimax becomes computationally expensive because the search space grows exponentially. Alpha-Beta pruning eliminates branches that cannot influence the final decision, allowing deeper searches within the same runtime budget.
+
+### Why only depth 3?
+
+The course imposed a strict per-move time limit. Depth 3 provided the best balance between search quality and execution speed. Near the end of the game, I dynamically increased the search depth because there were fewer legal moves to evaluate.
+
+### What was the hardest part?
+
+Designing the heuristic evaluation function. Programming Minimax is relatively straightforward compared to determining how to evaluate Go positions effectively. The most difficult heuristics involved liberties and eye detection because they required domain-specific knowledge of Go strategy.
+
+### What optimization are you most proud of?
+
+Move ordering. By evaluating strong candidate moves first, Alpha-Beta pruning became significantly more effective, allowing the search to explore deeper positions without exceeding the runtime limit.
+
+### If you continued the project, what would you add?
+
+I would implement transposition tables with Zobrist hashing, iterative deepening, Monte Carlo Tree Search for comparison, complete REST backend integration, and support for larger board sizes.
+
+### What did this project teach you?
+
+This project taught me how to combine algorithms, optimization, and software engineering to solve a computationally difficult problem. It also reinforced the importance of heuristic design, profiling, and iterative performance tuning when exact solutions are computationally infeasible.

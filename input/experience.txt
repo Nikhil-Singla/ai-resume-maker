@@ -1,0 +1,483 @@
+Nikhil Singla - AI/ML engineer
+Los Angeles, California | 785‑312‑0759 | nsingla3.14@gmail.com | linkedin.com/in/nsingla | github.com/Nikhil-Singla
+
+Summary
+AI/ML engineer who is skilled in Python, C++, and model development for Natural Language Processing, Computer Vision, and LLM systems. Experienced with AI-focused modules such as NumPy/Pandas, PyTorch, scikit-learn, etc. and model optimization techniques such as pruning. Strong problem-solver with cloud (AWS/GCP), MySQL, and version control experience, looking to work on ML engineering and applied AI roles.
+
+education
+University of Southern California (USC) 	June 2024 - May 2026
+M.S. Computer Science	Los Angeles, CA
+    • Specializing in Artificial Intelligence
+ 
+University of Kansas (KU) - 3.87/4.0	August 2020 - May 2024
+B.S. Computer Science	Lawrence, KS
+    • Minor: Mathematics | Certificate: Cybersecurity | Dean’s List 
+
+Technical WORK
+NLP Researcher	January 2025 - May 2025
+STELLA: Specialized Translation Engine with LoRA	Python, PyTorch, ONNX, Quantization
+    • Built a multilingual translation engine on OPUS-100, achieving 75% model compression while retaining 94.7% translation quality. 
+    • Reduced training requirements by 96.8%, by creating a unified transformer architecture and specific LoRA adapter matrices.
+    • Deployed optimized model (INT8 quantization + magnitude-based pruning), cutting inference footprint by 76% for edge devices.
+
+ML Agent Developer	September 2024 - October 2024
+Little-Go AI Agent	Python, GDB
+    • Achieved a 95% win-rate across 120+ matches against six different, competitive AI agents.
+    • Developed a Go-playing AI for a small board using Minimax algorithm (for decision making) with alpha-beta pruning
+    • Increased search depth exponentially, without facing any time penalty through optimization techniques and profiling 
+    • Enhanced evaluation accuracy by 30% through custom move-scoring analytics, logging, and pruning heuristics.
+
+AI Model Engineer	August 2024
+PathFinder (Genetic Algorithm for Traveling Salesman Problem)	Python, NumPy
+    • Designed a GA-based TSP solver for large coordinate sets, with 35% faster runtime compared to baseline solvers.
+    • Implemented parallelization-friendly design practices, enabling scalability on larger datasets.
+    • Reduced memory usage and execution time 3× via mutation strategy tuning and adaptive crossover selection.
+
+Backend Developer	January 2024 - May 2024
+Mapalyze-Parser	Python (Flask, OpenCV, NumPy), Selenium
+    • Built an end-to-end CV pipeline converting floor plans into structured JSON outputs, eliminating the need for human labor.
+    • Saw a 200% reduction in production time by using browser rendering & export with Selenium/PyAutoGUI
+    • Enhanced edge & line detection robustness for noisy inputs, improving downstream modeling accuracy.
+
+Non-Technical Experience
+Python Teaching Assistant	May 2025 - August 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Assisted with Summer Camps at the USC Viterbi K-12 STEM Center, and helped teach students through workshops, games, and events to foster engagement and curiosity in fields such as programming, robotics, game development, etc.
+    • Supported STEM learning and built proficiency with hands-on projects, coding activities, live demonstrations & problem solving
+    • Demonstrated mastery in adaptability and time management while helping students' complete tasks and solve issues.
+
+Resident Assistant	May 2021 - May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Contributed to a 36% improvement in resident satisfaction (annual survey of over 1500 residents across KU Housing)
+    • Mentored junior RAs and assisted in organizing monthly events; building-wide initiatives, to strengthen community engagement
+    • Mediated conflicts and coordinated floor events using Google Forms, and Excel to streamline communication and planning
+
+technical skills
+Languages & Modules: Python, C++, NumPy/Pandas, PyTorch, Keras, Scikit-learn, Matplotlib, OpenCV, NLTK
+Cloud & Other Systems: GCP, AWS, Linux, MySQL, Jupyter Notebook, MongoDB, Git, GitHub, VSCode, GDB
+Soft Skills: Problem-Solving, Communication, Teamwork, Adaptability, Leadership, Attention to Detail, Conflict Resolution
+Nikhil Singla - Full stack developer
+Los Angeles, California | 785‑312‑0759 | nsingla3.14@gmail.com | linkedin.com/in/nsingla | github.com/Nikhil-Singla
+
+education
+University of Southern California (USC)	June 2024 - May 2026
+Master of Science in Computer Science	Los Angeles, CA
+    • Specializing in Artificial Intelligence
+ 
+University of Kansas (KU) - 3.87/4.0	August 2020 - May 2024
+Bachelor of Science in Computer Science	Lawrence, KS
+    • Minor: Mathematics | Certificate: Cybersecurity | Dean’s List 
+
+Technical WORK
+Full Stack Developer	June 2025 - September 2025
+Gamified To-do Tasklist	JavaScript, HTML/CSS, Vercel
+    • Developed and deployed a gamified task management web application on Vercel, with XP-based progression, unlockable badges, and level-up animations, demonstrating full-stack deployment capabilities and user engagement design
+    • Implemented client-side state management using localStorage API with automatic daily task reset functionality, enabling persistent data across sessions without backend infrastructure while maintaining responsive UI performance
+    • Created modular JavaScript codebase with 12+ dedicated functions for DOM manipulation and event handling, featuring category-based organization, dynamic color-coding, and real-time UI updates for seamless user experience
+
+Full Stack Developer	September 2024 - December 2024
+Idle-Clicker Game	PHP, MySQL, JavaScript, HTML/CSS
+    • Shipped a full‑stack clicker RPG with session‑based authentication, and access‑controlled gameplay routes requiring sign up
+    • Achieved 0 backend roundtrips during combat via a client‑side loop, boosting responsiveness and reducing server load
+    • Designed a normalized MySQL schema enabling clean JOIN queries and scalable feature growth for future updates 
+
+Back-End Developer	January 2024 - May 2024
+Mapalyze Parser	Python (Flask, OpenCV, NumPy), Selenium
+    • Worked on an  end‑to‑end Computer Vision pipeline turning floor plan images into JSON segments using the backend server
+    • Automated browser rendering and export via Selenium/PyAutoGUI, eliminating manual drawing and boosting production time
+    • Improved line detection precision and reduced noise across varied inputs, enabling reliable downstream parsing and modeling
+
+Front-End Developer	January 2023
+Hurric-AI-ne: Disaster Response Platform	React, PHP, HTML/CSS
+    • Built a real-time AI platform, integrating OpenWeather API and geolocation to assist 20+ test users during disaster simulations
+    • Implemented real-time alerts and dynamic UI updates, boosting emergency response speed  for users in high-risk zones
+    • Scaled API infrastructure to handle more concurrent users by implementing caching, optimizing asynchronous request handling
+
+experience 
+Camp Aide	May 2025 - August 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Assisted with Summer Camps at the USC Viterbi K-12 STEM Center, and helped teach students through workshops, games, and events to foster engagement and curiosity in fields such as programming, robotics, game development, etc.
+
+Summer Data Analyst Intern	May 2023-August 2023
+Kairenn Healthcare	Remote
+    • Developed end-to-end data pipelines using Pandas and graph plotting tools to clean, analyze, and visualize long-term healthcare metrics, enabling targeted improvements and directly supporting a 28% revenue increase within two months of projections
+    • Designed Python-based automation scripts, reducing manual data entry by ~2 hours per day, streamlining workflows for tasks
+
+Resident Assistant	May 2021 - May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Accommodated over 1500 residents across three academic years by fostering a safe, inclusive community, and contributed to a 36% increase in resident satisfaction scores based on annual university surveys
+    • Mentored junior RAs and assisted in organizing monthly events; building-wide initiatives, to strengthen community engagement
+Nikhil Singla - Software Developer
+Los Angeles, California | 785‑312‑0759 | nsingla3.14@gmail.com | linkedin.com/in/nsingla | github.com/Nikhil-Singla
+
+education
+University of Southern California (USC)	June 2024 - May 2026
+Master of Science in Computer Science	Los Angeles, CA
+    • Specializing in Artificial Intelligence
+ 
+University of Kansas (KU) - 3.87/4.0	August 2020 - May 2024
+Bachelor of Science in Computer Science	Lawrence, KS
+    • Minor: Mathematics | Certificate: Cybersecurity | Dean’s List 
+
+Technical WORK
+Software Engineer 	September 2022 - Present
+Github Repository	Git Version Control
+    • Maintained consistent contributions on GitHub, showing quality improvements, best practices, and long-term project work.
+    • Solved algorithm and data-structure problems regularly on various platforms, improving problem-solving speed and difficulty
+    • Applied learnings into production-like projects: refactored modules, added unit tests, optimized performance, and ensured clean, scalable and maintainable code with documentation and modular design.
+
+Full Stack Developer	June 2025 - September 2025
+Gamified Todo Tasklist	JavaScript, HTML/CSS, Vercel
+    • Developed and deployed a gamified task management web application on Vercel with XP-based progression, unlockable badges, and level-up animations, demonstrating full-stack deployment capabilities and user engagement design
+    • Implemented client-side state management using localStorage API with automatic daily task reset functionality, enabling persistent data across sessions without backend infrastructure while maintaining responsive UI performance
+    • Created modular JavaScript codebase with 12+ dedicated functions for DOM manipulation and event handling, featuring category-based organization, dynamic color-coding, and real-time UI updates for seamless user experience
+
+ML Agent Developer	September 2024 - October 2024
+Little-Go AI Agent	Python, GDB
+    • Developed a Go-playing AI for a 5x5 board using Minimax algorithm (for decision making) with alpha-beta pruning, enhancing search depth from 3 to 5 (exponential increase) while maintaining sub-second move times across 120+ test games
+    • Achieved a 95%-win rate across 120+ matches played against six AI opponents, maintaining competitive response times
+    • Increased win accuracy by 30% through advanced debugging and custom logging of move evaluation, enhancing score by 85%
+
+experience 
+Camp Aide	May 2025 - August 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Assisted with Summer Camps at the USC Viterbi K-12 STEM Center, and helped teach students through workshops, games, and events to foster engagement and curiosity in fields such as programming, robotics, game development, etc.
+    • Supported STEM learning and built proficiency with hands-on projects, coding activities, live demonstrations & problem solving
+
+Summer Data Analyst Intern	May 2023-August 2023
+Kairenn Healthcare	Remote
+    • Developed end-to-end data pipelines using Pandas and graph plotting tools to clean, analyze, and visualize long-term healthcare metrics, enabling targeted improvements and directly supporting a 28% revenue increase within two months of projections
+    • Designed Python-based automation scripts, reducing manual data entry by ~2 hours per day, streamlining workflows for tasks
+
+Resident Assistant	May 2021 - May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Accommodated over 1500 residents across three academic years by fostering a safe, inclusive community, and contributed to a 36% increase in resident satisfaction scores based on annual university surveys
+    • Mediated conflicts and coordinated floor events using Google Forms, and Excel to streamline communication and planning
+
+technical skills
+Languages & Databases: Python, C++, JavaScript, PHP, HTML, CSS, MySQL, SQLite, MongoDB, Haskell, Assembly, GDScript
+Development Tools & Platforms: Git, VSCode, GDB, Google Apps Script, Linux, GitHub, AWS, Cloudflare, VMWorks, REST APIs, React
+Nikhil Singla - Data analyst
+Los Angeles, California | 785‑312‑0759 | nsingla3.14@gmail.com | linkedin.com/in/nsingla | github.com/Nikhil-Singla
+
+education
+University of Southern California (USC)	June 2024 - May 2026
+Master of Science in Computer Science	Los Angeles, CA
+    • Specializing in Artificial Intelligence
+ 
+University of Kansas (KU) - 3.87/4.0	August 2020 - May 2024
+Bachelor of Science in Computer Science	Lawrence, KS
+    • Minor: Mathematics | Certificate: Cybersecurity | Dean’s List 
+
+experience 
+Camp Aide	May 2025 - August 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Assisted with Summer Camps at the USC Viterbi K-12 STEM Center, and helped teach students through workshops, games, and events to foster engagement and curiosity in fields such as programming, robotics, game development, etc.
+    • Supported STEM learning and built proficiency with hands-on projects, coding activities, live demonstrations & problem solving
+
+Summer Data Analyst Intern	May 2023-August 2023
+Kairenn Healthcare	Remote
+    • Developed end-to-end data pipelines using Pandas and graph plotting tools to clean, analyze, and visualize long-term healthcare metrics, enabling targeted improvements and directly supporting a 28% revenue increase within two months of projections
+    • Designed Python-based automation scripts, reducing manual data entry by ~2 hours per day, streamlining workflows for tasks
+
+Resident Assistant	May 2021 - May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Accommodated over 1500 residents across three academic years by fostering a safe, inclusive community, and contributed to a 36% increase in resident satisfaction scores based on annual university surveys
+    • Mediated conflicts and coordinated floor events using Google Forms, and Excel to streamline communication and planning
+
+Technical WORK
+Full Stack Developer	June 2025 - September 2025
+Gamified Todo Tasklist	JavaScript, HTML/CSS, Vercel
+    • Developed and deployed a gamified task management web application on Vercel with XP-based progression, unlockable badges, and level-up animations, demonstrating full-stack deployment capabilities and user engagement design
+    • Implemented client-side state management using localStorage API with automatic daily task reset functionality, enabling persistent data across sessions without backend infrastructure while maintaining responsive UI performance
+    • Created modular JavaScript codebase with 12+ dedicated functions for DOM manipulation and event handling, featuring category-based organization, dynamic color-coding, and real-time UI updates for seamless user experience
+
+ML Agent Developer	September 2024 - October 2024
+Little-Go AI Agent	Python, GDB
+    • Developed a Go-playing AI for a 5x5 board using Minimax algorithm (for decision making) with alpha-beta pruning, enhancing search depth from 3 to 5 (exponential increase) while maintaining sub-second move times across 120+ test games
+    • Achieved a 95%-win rate across 120+ matches played against six AI opponents, maintaining competitive response times
+    • Increased win accuracy by 30% through advanced debugging and custom logging of move evaluation, enhancing score by 85%
+
+AI Model Engineer	August 2024
+GenAI: PathFinder (Traveling Salesman Problem Solver)	Python, NumPy
+    • Designed a genetic algorithm-based solver for TSP, optimizing route planning for travelling through large coordinate sets 
+    • Reduced runtime by 35% compared to average solvers by integrating various features such as mutation and crossover
+Reduced memory usage and execution time 3× on high-volume datasets through custom parameter tuning and optimization
+
+technical skills
+Languages & Databases: Python, C++, JavaScript, PHP, HTML, CSS, MySQL, SQLite, MongoDB, Haskell, Assembly, GDScript
+Development Tools & Platforms: Git, VSCode, GDB, Google Apps Script, Linux, GitHub, AWS, Cloudflare, VMWorks, REST APIs, React
+Soft Skills: Communication, Problem-Solving, Leadership, Teamwork, Adaptability, Conflict Resolution, Attention to Detail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nikhil Singla - ASSOCIATE APPLICATION CONSULTANT
+Los Angeles, California | 785‑312‑0759 | nsingla3.14@gmail.com | linkedin.com/in/nsingla | github.com/Nikhil-Singla
+
+Summary
+Consulting-oriented application developer with hands-on experience delivering cloud-deployed, full-stack solutions and AI-enabled systems. Proven ability to translate ambiguous requirements into scalable technical designs, collaborate in agile environments, and communicate complex concepts clearly to technical and non-technical stakeholders. Strong foundation in hybrid cloud platforms, modern application architectures, and outcome-driven problem solving.
+
+education
+University of Southern California (USC) - 3.5/4.0	June 2024 - May 2026
+M.S. Computer Science	Los Angeles, CA
+    • Specializing in Artificial Intelligence
+ 
+University of Kansas (KU) - 3.87/4.0	August 2020 - May 2024
+B.S. Computer Science	Lawrence, KS
+    • Minor: Mathematics | Certificate: Cybersecurity | Dean’s List 
+
+Technical WORK: AI & Cloud Solutions
+Full-Stack Application Developer 	August 2025 - December 2025
+Event Discovery & Analytics Platform	Node.js (Express), React, MongoDB Atlas, Google Cloud
+    • Designed and implemented a full-stack event discovery platform integrating Ticketmaster, Google Geocoding, IP-based location services, and Spotify APIs, following a service-oriented architecture with a Node.js backend proxy
+    • Translated functional requirements into backend REST endpoints, securely handling API authentication and data normalization before serving frontend clients
+    • Deployed the application on Google Cloud (App Engine / Cloud Run) with a cloud-hosted MongoDB Atlas datastore, ensuring persistence and scalability
+
+Multilingual AI Application	January 2025 - May 2025
+STELLA: Specialized Translation Engine with LoRA	Python, PyTorch, ONNX
+    • Developed a multilingual translation system using parameter-efficient fine-tuning, achieving 75% model compression while retaining 95% translation quality. 
+    • Optimized training and inference workflows to reduce deployment costs and support cloud and edge environments.
+    • Balanced performance, scalability, and resource constraints, mirroring real-world AI adoption tradeoffs
+
+Backend Application & Data Processing Pipeline	January 2024 - May 2024
+Mapalyze-Parser	Python, Flask, OpenCV, Selenium
+    • Built an end-to-end backend service converting unstructured visual inputs into structured JSON, eliminating processing steps
+    • Automated browser-based workflows using Selenium, tripling processing efficiency and improving data reliability
+    • Enhanced robustness of extraction pipelines under noisy inputs, increasing downstream system accuracy and usability
+
+LEADERSHIP & CLIENT-FACING EXPERIENCE
+Python Teaching Assistant	May 2025 - August 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Facilitated hands-on technical workshops for diverse, non-technical audiences.
+    • Simplified complex programming concepts into clear and engaging explanations, similar to consulting-style communication
+    • Adapted instruction in real time to evolving requirements and participant needs
+
+Resident Assistant	May 2021 - May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Supported 1,500+ residents, contributing to a 36% increase in satisfaction scores
+    • Resolved conflicts, coordinated cross-functional initiatives, and communicated with residents across all ages
+    • Operated in high-pressure and ambiguous situations, learning directly transferable skills for client-facing consulting 
+
+technical skills
+Languages & Modules: Python, JavaScript, C++, SQL 
+Cloud & Other Systems: AWS, Google Cloud Platform, Linux, MongoDB, Git/GitHub
+Professional Focus: Client Communication, Problem Framing, Team Collaboration, Adaptability, Storytelling with Data
+Nikhil Singla
+Los Angeles, California | 785‑312‑0759 | nsingla3.14@gmail.com | linkedin.com/in/nsingla | github.com/Nikhil-Singla
+
+Summary
+Engineer with a background in full-stack systems, AI pipelines, and cloud integration. Adept at debugging complex software behaviors, analyzing logs and system outputs, and supporting mission-critical systems. Strong foundation in connectivity protocols, backend automation, and root cause diagnostics. Familiar with tools including AWS, MySQL, and JIRA.
+
+education
+University of Kansas (KU) - 3.87/4.0	Aug 2020 - May 2024
+Bachelor of Science in Computer Science	Lawrence, KS
+    • Minor: Mathematics | Certificate: Cybersecurity | Dean’s List 
+
+University of Southern California (USC)	Jun 2024 - May 2026
+Master of Science in Computer Science	Los Angeles, CA
+    • Specializing in Artificial Intelligence
+ 
+Technical WORK
+Backend Application & Data Processing Pipeline 	Jan 2024 - May 2024
+Mapalyze-Parser	Python (Flask, OpenCV, NumPy), Selenium
+    • Developed end-to-end backend pipeline to process visual floor plan inputs into structured JSON using OpenCV
+    • Implemented browser automation (Selenium) to replicate human workflows, improving production speed by 3x
+    • Enhanced edge detection for noisy data; Improved robustness and debugged/documented failure cases across datasets
+
+ML Agent Developer	Sep 2024 - Oct 2024
+Little-Go AI Agent	Python, GDB
+    • Built a 5x5 Go-playing agent using Minimax + Alpha-Beta pruning; 95% win rate across 120+ AI matchups.
+    • Applied structured troubleshooting and data-backed validation to identify causes of runtime performance dips.
+    • Developed custom logging and internal metrics to trace incorrect predictions, mimicking failure tracing workflows.
+
+AI Model Engineer	Jan 2025 - May 2025
+STELLA: Multilingual AI Translation Engine	Python, PyTorch, ONNX, Quantization
+    • Compressed multilingual model using LoRA and pruning to deploy on edge devices with 75% lower footprint. 
+    • Optimized training and inference workflows to reduce deployment costs and support cloud and edge environments.
+    • Experience with inference testing, log-based diagnosis, and output traceability.
+
+Full Stack Developer	Jun 2025 - Sep 2025
+Gamified Tasklist App	JavaScript, HTML/CSS, Vercel
+    • Deployed web app with frontend interactivity and client-side state management.
+    • Created modular logging hooks to simulate user session crashes and UI failures.
+
+experience 
+Resident Assistant	May 2021 - May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Supported 1500+ residents over 3 years; trained in response prioritization, real-time issue handling.
+    • Documented user-facing incidents and resolutions with clarity, reflecting audit-ready quality tracking.
+    • Coordinated incident response reports, de-escalation, and follow-up reporting for safety and compliance.
+
+Python Teaching Assistant	May 2025 - Aug 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Facilitated hands-on technical workshops for middle and high school students at the USC Viterbi K-12 STEM Center.
+    • Guided students through interactive lessons on programming, robotics, and game development using Python and Scratch.
+    • Demonstrated adaptability by simplifying complex topics for diverse learning backgrounds and adjusting instruction in real time.
+
+INTERESTS & GROWTH AREAS
+Currently expanding skills in Bluetooth LE, TCP/IP diagnostics, CloudWatch logging, and AWS fundamentals via hands-on tutorials and simulated environments. Actively exploring device connectivity troubleshooting and system-level communication. 
+PROJECTS
+Little-Go AI Agent	Python, GDB
+AI Developer	September 2024
+    • Developed a Go-playing AI for a 5x5 board using Minimax algorithm (for decision making) with alpha-beta pruning, enhancing search depth from 3 to 5 (exponential increase) while maintaining sub-second move times across 120+ test games
+    • Achieved a 95% win rate across 120+ self-play matches against six AI opponents, maintaining competitive response times
+    • Engineered shape-recognition heuristics to revise gameplay logic, enhancing average board score by 85%
+    • Increased win accuracy by 30% through advanced debugging and custom logging of move evaluation
+
+ML Agent Developer	September 2024
+Little-Go AI Agent	Python, GDB
+    • Developed a Go-playing AI for a 5x5 board using Minimax algorithm (for decision making) with alpha-beta pruning, enhancing search depth from 3 to 5 (exponential increase) while maintaining sub-second move times across 120+ test games
+    • Achieved a 95%-win rate across 120+ matches played against six AI opponents, maintaining competitive response times
+    • Increased win accuracy by 30% through advanced debugging and custom logging of move evaluation, enhancing score by 85%
+ 
+AI Model Developer	August 2024
+GenAI: PathFinder (Traveling Salesman Problem Solver)	Python, NumPy
+    • Designed a genetic algorithm-based solver for TSP, optimizing route planning for travelling through large coordinate sets 
+    • Reduced runtime by 35% compared to average solvers by integrating various features such as mutation and crossover
+    • Reduced memory usage and execution time 3× on high-volume datasets through custom parameter tuning and optimization
+ 
+
+Front-End Developer	January 2023
+Hurric-AI-ne: Disaster Response Platform	React, PHP, HTML/CSS
+    • Built a real-time AI platform, integrating OpenWeather API and geolocation to assist 20+ test users during disaster simulations
+    • Implemented real-time alerts and dynamic UI updates, boosting emergency response speed  for users in high-risk zones
+    • Scaled API infrastructure to handle more concurrent users by implementing caching, optimizing asynchronous request handling
+ 
+Full Stack Developer	September 2025
+Gamified Todo Tasklist	JavaScript, HTML/CSS, Vercel
+    • Developed and deployed a gamified task management web application on Vercel with XP-based progression, unlockable badges, and level-up animations, demonstrating full-stack deployment capabilities and user engagement design
+    • Implemented client-side state management using localStorage API with automatic daily task reset functionality, enabling persistent data across sessions without backend infrastructure while maintaining responsive UI performance
+    • Created modular JavaScript codebase with 12+ dedicated functions for DOM manipulation and event handling, featuring category-based organization, dynamic color-coding, and real-time UI updates for seamless user experience
+
+NLP Researcher	Spring 2025
+Specialized Translation Engine with Lo-RA (STELLA)	Python, PyTorch, LoRA, ONNX
+    • Developed privacy-preserving multilingual translation system using LoRA-based parameter efficient fine-tuning and knowledge distillation across language pairs on OPUS-100 dataset, achieving 75% model compression: maintaining 95.7% translation quality
+    • Designed a unified transformer architecture and language-specific LoRA adapters to reduce trainable parameters by 96.8% 
+    • Optimized model for edge deployment through INT8 quantization and magnitude-based pruning, reducing footprint by 76%
+
+WORK
+Resident Assistant	May 2021-May 2024
+University of Kansas, Student Housing	Lawrence, KS
+    • Accommodated over 1500 residents across three academic years by fostering a safe, inclusive community, and contributed to a 36% increase in resident satisfaction scores based on annual university surveys
+    • Mentored junior RAs and assisted in organizing monthly events; building-wide initiatives, to strengthen community engagement
+    • Mediated conflicts and coordinated floor events using Google Forms, and Excel to streamline communication and planning
+
+Data Analyst Intern	May 2023-August 2023
+Kairenn Healthcare	Remote
+    • Developed end-to-end data pipelines using Pandas and graph plotting tools to clean, analyze, and visualize long-term healthcare metrics, enabling targeted improvements and directly supporting a 28% revenue increase within two months 
+    • Designed Python-based automation scripts, reducing manual data entry by ~2 hours per day, streamlining workflows
+    • Delivered automated weekly performance reports and emailed summaries, improving operational insight
+
+SKILLS
+Languages & Databases: Python, C++, JavaScript, PHP, HTML, CSS, MySQL, SQLite, MongoDB, Haskell, Assembly, GDScript
+AI/ML & Data Tools: TensorFlow, PyTorch, Keras, NumPy, Pandas, Scikit-learn, Jupyter Notebook, Matplotlib
+Development Tools & Platforms: Git, VSCode, GDB, Google Apps Script, Linux, GitHub, AWS, Cloudflare, VMWorks, REST APIs, React
+Soft Skills: Communication, Problem-Solving, Leadership, Teamwork, Adaptability, Conflict Resolution, Attention to Detail
+
+VOLUNTEERING
+Camp Aide	Summer 2025
+CS@SC Summer Camps	Los Angeles, CA
+    • Volunteered with CS@SC Summer Camps at the USC Viterbi K-12 STEM Center, and helped guide students through workshops, games, and events to foster engagement and curiosity in fields such as programming, robotics, game development, etc
+    • Supported STEM learning for K-12 students by assisting with hands-on projects, coding activities, and demonstrations.
+
+
+
+ NIKHIL SINGLA	
+Los Angeles, California | 785-312-0759 | nsingla3.14@gmail.com | https://www.linkedin.com/in/nsingla/
+ EDUCATION	
+University of Southern California (USC)		          Los Angeles, CA
+Master’s in Computer Science - Artificial Intelligence	June 2024-Present
+●	GPA: 3.54/4.0
+University of Kansas	Lawrence, Kansas
+Bachelor’s in Computer Science, Minor in Mathematics	August 2020-May 2024
+●	GPA: 3.87/4.0 (+ Undergraduate Certificate in Cyber-security)
+●	Dean's Honor Roll: 2021, 2022, 2023
+
+ EXPERIENCE	
+University of Kansas, Student Housing	Lawrence, Kansas
+Resident Assistant	May 2021-May 2024
+●	Led a team of 12+ staff to maintain a supportive community for 400+ residents, resolving concerns through one-on-one conversations, which increased resident satisfaction and positive feedback by 36% compared to previous years
+●	Facilitated resident support through proactive guidance and counseling, adeptly addressing issues and cultivating a more connected community, contributing to a 15% rise in retention for residents on a floor
+●	Applied strong problem-solving and interpersonal skills to resolve conflicts and mediate over 14 roommate disputes, leading to a reduction in roommate change requests
+Kairenn Healthcare	Remote Position
+Data Entry and Analyst Intern	May 2023-August 2023
+●	Developed an automated service for data entry, resulting in substantial time savings for menial tasks (upto 2 hours) everyday 
+●	Created Python scripts to streamline data collection/analysis, contributing to a monthly revenue growth of 28% in two months
+●	Utilized Pandas framework in Python to accurately visualize and transmit daily reports with graphs to the employer
+
+ ACADEMIC PROJECTS	
+Little Go Agent | Python, GDB	Los Angeles, CA
+AI Developer	September 2024-November 2024
+●	Developed a Go-playing AI agent for a 5x5 board using minimax algorithms with alpha-beta pruning and used custom heuristics, thus enhancing search space by more than one depth
+●	Designed functions to recognize effective Go shapes, restructuring agent's gameplay and improving score by 85%
+●	Debugged complex move calculations with logging tools, increasing accuracy and boosted overall win-rate by 30%
+●	Achieved a 95% win rate against 6 AI opponents, playing over 120 games while ensuring competitive decision times
+GenAI: PathFinder | Python, NumPy	Los Angeles, CA
+AI Developer	August 2024-October 2024
+●	Built a Genetic AI model in Python to solve the Traveling Salesman Problem (TSP), identifying efficient paths for large coordinate sets while implementing features to reduce time consumption by 35%
+●	Leveraged various algorithms with selection, crossover, and mutation techniques to iteratively boost solution accuracy, achieving results within 10 units of best found path in a given time period
+●	Improved computational efficiency through tailored parameter tuning, minimizing time and memory usage on high-volume data inputs by up to three times, leading to greater processing power when working with larger datasets
+Hurric-AI-ne | REACT, PHP/HTML/CSS	Kansas City, KS
+Front-End Developer	January 2023-March 2024
+●	Engineered an AI-driven platform integrating real-time location tracking and weather data, empowering users to make informed decisions during natural disasters, promoting information gathering efficiency
+●	Enhanced Disaster Response by executing real-time alerts, enabling timely disaster warnings for users in high-risk areas
+●	Reduced API call latency, ensuring reliable access to critical information during peak emergency periods
+
+ TECHNICAL SKILLS	
+Languages: C++, Python, JavaScript, PHP, HTML/CSS, MySQL, GDScript, Haskell, Assembly Developer Tools: VS Code, Google App Scripts, Sony Vegas Pro Technologies/Frameworks: Linux, GitHub, WordPress, VMWorks, Jupyter Notebook

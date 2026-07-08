@@ -1,0 +1,398 @@
+# Project Specification
+
+## Project Name
+
+**MiniGo AI**
+*5×5 Go AI Agent using Minimax Search and Heuristic Evaluation*
+
+---
+
+# Overview
+
+MiniGo AI is a competitive artificial intelligence agent developed for a 5×5 implementation of the board game Go. The project was initially created as part of a semester-long Artificial Intelligence course and later expanded into a full-stack application with a browser-based graphical interface.
+
+Unlike machine-learning approaches such as AlphaGo, this project focuses on symbolic artificial intelligence techniques. The AI relies on adversarial search using the Minimax algorithm combined with Alpha-Beta pruning and a collection of handcrafted heuristic evaluation functions inspired by traditional Go strategy.
+
+The objective of the project was to explore decision-making algorithms, optimization techniques, and game-tree search while operating under strict runtime constraints.
+
+---
+
+# Motivation
+
+Go is one of the most computationally difficult board games because of its enormous branching factor and state space.
+
+A naïve Minimax implementation quickly becomes computationally infeasible.
+
+This project investigates how intelligent heuristic design and search optimization can produce a competitive Go-playing agent despite severe computational limitations.
+
+---
+
+# Objectives
+
+The project was designed to:
+
+* Build a complete Go game engine.
+* Implement all required game mechanics.
+* Develop an AI capable of selecting competitive moves.
+* Optimize search performance to satisfy strict execution-time limits.
+* Experiment with heuristic evaluation functions.
+* Learn adversarial search techniques commonly used in Artificial Intelligence.
+
+The project was later expanded to include a web interface for interactive gameplay.
+
+---
+
+# Technologies Used
+
+## Programming Languages
+
+* Python
+* HTML
+* CSS
+* JavaScript
+
+## Algorithms
+
+* Minimax Search
+* Alpha-Beta Pruning
+* Game Tree Search
+* Move Ordering
+* Heuristic Evaluation
+* State Space Search
+
+## Software Engineering Concepts
+
+* Performance Profiling
+* Algorithm Optimization
+* Modular Software Design
+* Rule-Based AI
+* Browser UI Development
+
+---
+
+# System Architecture
+
+The project consists of three major components.
+
+## 1. Game Engine
+
+Responsible for implementing all Go rules.
+
+Responsibilities include:
+
+* Board representation
+* Stone placement
+* Capture resolution
+* Liberty detection
+* Connected component detection
+* Suicide prevention
+* Ko rule enforcement
+* Move validation
+* Board evaluation
+
+---
+
+## 2. AI Engine
+
+Responsible for selecting the strongest legal move.
+
+The AI performs:
+
+* Legal move generation
+* Move ordering
+* Minimax search
+* Alpha-Beta pruning
+* Dynamic evaluation
+* Endgame search adaptation
+
+---
+
+## 3. Frontend
+
+The browser interface allows users to:
+
+* Play Go interactively
+* View captures
+* Reset games
+* Undo moves
+* Track move count
+* Play locally
+* Prepare for backend AI integration
+
+The frontend communicates with a Python backend through REST-style endpoints in the expanded version of the project.
+
+---
+
+# Board Representation
+
+The board is represented as a 5×5 matrix.
+
+Each position stores one of three values:
+
+* 0 = Empty
+* 1 = Black
+* 2 = White
+
+The AI receives:
+
+* Current board state
+* Previous board state
+* Current move number
+
+The output is the coordinate of the optimal move.
+
+---
+
+# Game Rules Implemented
+
+The engine manually implements all major Go mechanics.
+
+Implemented features include:
+
+* Liberty detection
+* Connected stone groups
+* Capture resolution
+* Suicide rule
+* Ko rule
+* Komi scoring
+* Legal move generation
+* Move validation
+
+---
+
+# AI Search Algorithm
+
+The AI uses Minimax Search.
+
+Because Go is a two-player zero-sum game, Minimax recursively explores future board states to maximize the AI's evaluation score while assuming the opponent always selects the strongest possible response.
+
+The search is optimized using Alpha-Beta pruning, which eliminates branches that cannot affect the final decision.
+
+This dramatically reduces the number of evaluated positions and enabled increasing the effective search depth while remaining within the assignment's runtime limit.
+
+---
+
+# Search Depth
+
+Early and midgame:
+
+* Fixed search depth of 3
+
+Endgame:
+
+* Adaptive search depth
+* Search depth increases as the number of remaining legal moves decreases
+
+This strategy improves endgame accuracy without violating runtime constraints.
+
+---
+
+# Move Ordering
+
+Legal moves are evaluated using a predefined priority ordering.
+
+The search examines:
+
+1. Center
+2. Near-center
+3. Edge
+4. Corner
+
+This increases Alpha-Beta pruning effectiveness because stronger candidate moves are explored first.
+
+---
+
+# Heuristic Evaluation
+
+The strongest component of the AI is its handcrafted evaluation function.
+
+Instead of evaluating only captures or stone count, the AI combines numerous strategic heuristics inspired by human Go play.
+
+Implemented heuristics include:
+
+## Positional Weighting
+
+Encourages center control during the opening.
+
+---
+
+## Shape Analysis
+
+Evaluates common Go formations.
+
+Rewards:
+
+* Stable formations
+* Efficient extensions
+
+Penalizes:
+
+* Weak shapes
+* Over-concentrated groups
+* Vulnerable formations
+
+---
+
+## Liberty Analysis
+
+Counts liberties available to friendly and opponent groups.
+
+Positions with greater mobility receive higher evaluation scores.
+
+---
+
+## Eye Detection
+
+Detects secure internal spaces.
+
+Rewards formations that are difficult to capture.
+
+---
+
+## Edge Penalty
+
+Discourages excessive edge play before center influence has been established.
+
+---
+
+## Center Control
+
+Prioritizes occupying strategically valuable central intersections.
+
+---
+
+## Opening / Midgame / Endgame Evaluation
+
+Different positional weight tables are used depending on the phase of the game.
+
+Opening:
+
+* Strong center preference
+
+Midgame:
+
+* Balanced territorial expansion
+
+Endgame:
+
+* Positional weights removed
+* Evaluation focuses primarily on captures and final score
+
+---
+
+# Performance Optimization
+
+Several optimization techniques were implemented.
+
+These include:
+
+* Alpha-Beta pruning
+* Move ordering
+* Fixed search depth
+* Adaptive endgame depth
+* Profiling using Python's cProfile
+* Early pruning of unfavorable branches
+
+---
+
+# Engineering Challenges
+
+The largest challenges included:
+
+* Designing effective heuristic evaluation functions
+* Balancing heuristic weights
+* Implementing liberty detection correctly
+* Implementing eye detection
+* Maintaining runtime limits
+* Optimizing search performance
+
+Numerous heuristic weights were tuned experimentally through repeated testing against competing agents.
+
+Several heuristics were discarded after experimentation because they reduced overall playing strength.
+
+---
+
+# Results
+
+The final AI:
+
+* Consistently defeated random agents
+* Competed successfully against most class AI agents
+* Received a course grade of 95%
+* Generated moves in under one second
+* Successfully satisfied assignment runtime requirements
+
+---
+
+# Frontend Expansion
+
+Following completion of the original AI, the project was expanded into a browser-based application.
+
+The interface provides:
+
+* Interactive Go board
+* Local gameplay
+* Undo functionality
+* Reset functionality
+* Score display
+* Capture counters
+* Move counter
+* Browser rendering
+
+The frontend is designed for future integration with the Python AI backend.
+
+---
+
+# Lessons Learned
+
+This project significantly improved understanding of:
+
+* Artificial Intelligence
+* Adversarial Search
+* Algorithm Optimization
+* Heuristic Design
+* Game Theory
+* State Space Search
+* Software Engineering
+* Performance Profiling
+* Full-Stack Development
+
+---
+
+# Future Improvements
+
+Potential future work includes:
+
+* Full REST backend integration
+* Stronger evaluation functions
+* Transposition tables
+* Zobrist hashing
+* Iterative deepening
+* Monte Carlo Tree Search
+* Reinforcement Learning comparison
+* Larger board support
+* Stronger UI and visualization
+* AI difficulty settings
+
+---
+
+# Key Technical Skills Demonstrated
+
+* Python
+* JavaScript
+* HTML
+* CSS
+* Minimax Search
+* Alpha-Beta Pruning
+* Heuristic Evaluation
+* Game Theory
+* Artificial Intelligence
+* Search Algorithms
+* Algorithm Optimization
+* Performance Profiling
+* Rule-Based Systems
+* Software Architecture
+* Frontend Development
+* Debugging
+* Testing
+* Performance Analysis
